@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{scrlttr2}
+\usepackage[utf8]{inputenc}
+\usepackage{german}
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+\setkomavar{fromname}{$fromname$}
+\setkomavar{fromaddress}{$fromaddress$}
+\setkomavar{subject}{$title$}
+\KOMAoptions{fromphone=false,fromfax=false}
+
+\begin{document}
+\begin{letter}{$recname$\\$recstreet$\\$reccity$}
+\opening{$opening$,}
+
+$body$
+
+\closing{$closing$}
+
+%enclosure listing
+%\encl{}
+
+\end{letter}
+\end{document}
