@@ -1,6 +1,7 @@
 \documentclass[a4paper,10pt]{scrlttr2}
 \usepackage[utf8]{inputenc}
 \usepackage{german}
+\usepackage{hyperref}
 
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
@@ -9,6 +10,9 @@
 \setkomavar{fromaddress}{$fromstreet$, $fromcity$}
 \setkomavar{subject}{$title$}
 \KOMAoptions{fromphone=false,fromfax=false}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
 \begin{letter}{$recname$\\$recstreet$\\$reccity$}
